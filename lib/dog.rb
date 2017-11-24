@@ -14,3 +14,7 @@ class Dog
     puts "The Dog is sitting"
   end
 end
+
+lassie = Dog.new
+lassie.name = "Lasiie"
+puts lassie.name
